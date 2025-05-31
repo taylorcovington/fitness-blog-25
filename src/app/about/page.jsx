@@ -81,9 +81,9 @@ export default function About() {
               life. I could build it.
             </p>{' '}
             <p>
-              Then life threw it's punch: I lost my mom at 46. I was 27. That
-              moment shattered the illusion of “someday.” There were no more
-              tomorrows to waste.
+              Then life threw it&apos;s punch: I lost my mom at 46. I was 27.
+              That moment shattered the illusion of “someday.” There were no
+              more tomorrows to waste.
             </p>{' '}
             <p>
               I was 30 pounds overweight. Drifting. Uncertain about my career.
@@ -103,10 +103,10 @@ export default function About() {
               full lives, families, and real responsibilities.
             </p>{' '}
             <p>
-              Because health isn't just about aesthetics. It’s about leadership.
-              It’s about being the kind of man your kids can count on. It’s
-              about showing up for your wife with presence, not just presence of
-              mind - but energy, stability, and strength.
+              Because health isn&apos;t just about aesthetics. It’s about
+              leadership. It’s about being the kind of man your kids can count
+              on. It’s about showing up for your wife with presence, not just
+              presence of mind - but energy, stability, and strength.
             </p>{' '}
             <p>
               Today, I split my time between building software systems for
@@ -125,7 +125,7 @@ export default function About() {
               than your body - it transforms your future.
             </p>
             <p>
-              At the end of the day - I'm just a man trying to find his way
+              At the end of the day - I&apos;m just a man trying to find his way
               through this life the best I can, supporting those around me, and
               sharing my journey.
             </p>

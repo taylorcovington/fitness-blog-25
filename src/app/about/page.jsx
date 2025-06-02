@@ -3,12 +3,7 @@ import Link from 'next/link'
 import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
-import {
-  GitHubIcon,
-  InstagramIcon,
-  LinkedInIcon,
-  XIcon,
-} from '@/components/SocialIcons'
+import { GitHubIcon, LinkedInIcon, XIcon } from '@/components/SocialIcons'
 import portraitImage from '@/images/avatar-new.jpeg'
 import signatureImage from '@/images/signature-cyan.png'
 
@@ -40,7 +35,7 @@ function MailIcon(props) {
 export const metadata = {
   title: 'About',
   description:
-    'I’m Taylor Covington. I live in New York City, where I design the future.',
+    'I’m Taylor Covington. I live in Salt Lake City, where I build for the future.',
 }
 
 export default function About() {
@@ -63,31 +58,41 @@ export default function About() {
           </h1>
           <div className="mt-6 space-y-2 text-base text-zinc-600 dark:text-zinc-400">
             <p>
-              I got married young. Became a dad at 24. And woke up every day
-              working a corporate job that drained the life out of me.
+              My wife and I got married when we were young. We became parents at
+              24. I found myself not knowing what I wanted for a career so I
+              ended up working a corporate job that drained the life out of me.
             </p>{' '}
             <p>
               While tied to a cubicle and a phone as a stock trader, I started
               asking hard questions:{' '}
+            </p>{' '}
+            <p>
               <strong>
                 Is this really what life is supposed to feel like?
               </strong>
-            </p>{' '}
+            </p>
             <p>
-              The books that cracked me open-
+              <strong>
+                Is it normal to hate what I do for 40+ hours each week, away
+                from my family and the things I want to be doing?
+              </strong>
+            </p>
+            <p>
+              I started reading more books and writers that opened my mind:{' '}
               <strong>Think and Grow Rich</strong>,{' '}
               <strong>The 4-Hour Work Week</strong>, anything Dan Koe wrote -
               taught me one thing: I didn’t have to settle. I could design a
               life. I could build it.
             </p>{' '}
             <p>
-              Then life threw it&apos;s punch: I lost my mom at 46. I was 27.
-              That moment shattered the illusion of “someday.” There were no
-              more tomorrows to waste.
+              Then life threw it&apos;s punch: I lost my mom when she was 46. I
+              was 27. That moment shattered the illusion of “someday.” There
+              were no more tomorrows to waste.
             </p>{' '}
             <p>
-              I was 30 pounds overweight. Drifting. Uncertain about my career.
-              Unsure of how to lead a family when I couldn’t even lead myself.
+              At the time I was 30 pounds overweight. Drifting. Uncertain about
+              my career. Unsure of how to lead a family when I couldn’t even
+              lead myself.
             </p>{' '}
             <p>So I got to work - on my body, my mind, and my skills.</p>{' '}
             <p>
@@ -96,6 +101,10 @@ export default function About() {
               Software Engineer. I went from feeling lost to building scalable
               systems that help businesses grow.
             </p>{' '}
+            <p>
+              My days no longer felt like a prison. I felt excited to get back
+              to the projects I was working on.{' '}
+            </p>
             <p>
               At the same time, I rebuilt my health. Lost the weight. Gained
               over 20 pounds of muscle. I stopped chasing shortcuts and started
@@ -114,6 +123,10 @@ export default function About() {
               entrepreneurs, and everyday parents - build bodies and habits
               they’re proud of.
             </p>{' '}
+            <p>
+              The businesses I work for don&apos;t want excuses - they want
+              systems built that will last their company years into the future.
+            </p>
             <p>
               My clients don’t want six-pack selfies. They want to live longer,
               lead better, and feel fully alive.

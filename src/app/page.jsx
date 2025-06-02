@@ -5,16 +5,7 @@ import clsx from 'clsx'
 import { Button } from '@/components/Button'
 import { Card } from '@/components/Card'
 import { Container } from '@/components/Container'
-import {
-  GitHubIcon,
-  InstagramIcon,
-  LinkedInIcon,
-  XIcon,
-} from '@/components/SocialIcons'
-import logoAirbnb from '@/images/logos/airbnb.svg'
-import logoFacebook from '@/images/logos/facebook.svg'
-import logoPlanetaria from '@/images/logos/planetaria.svg'
-import logoStarbucks from '@/images/logos/starbucks.svg'
+import { GitHubIcon, LinkedInIcon, XIcon } from '@/components/SocialIcons'
 import image1 from '@/images/photos/image-1.jpg'
 import image2 from '@/images/photos/image-2.jpg'
 import image3 from '@/images/photos/image-3.jpg'
@@ -262,13 +253,15 @@ export default async function Home() {
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
-            Coach. Builder. Father. Disciplined for a reason.
+            Father. Developer. Coach. Building a Better Future.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I’m Taylor Covington - Sr. Software Engineer, online fitness coach,
-            and a husband and dad of three. I help high performers master their
-            health, lead with energy, and build legacies that outlive them.
+            I’m Taylor Covington — a Sr. Software Engineer and certified online
+            fitness coach. I help high performers build scalable systems—both in
+            business and in their bodies—so they can lead with energy, live on
+            purpose, and create a legacy that lasts.
           </p>
+
           <div className="mt-6 flex gap-6">
             <SocialLink
               href="https://x.com/buildwithtaylor"

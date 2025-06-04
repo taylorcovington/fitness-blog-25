@@ -58,6 +58,19 @@ export default function About() {
           </h1>
           <div className="mt-6 space-y-2 text-base text-zinc-600 dark:text-zinc-400">
             <p>
+              Ever since I was a child I loved to build. At the age of 13 I had
+              started a business mowing lawns, by 14 I was selling newspapers
+              door-to-door, and by 16 I was leading teams.
+            </p>
+            <p>
+              I was also very into lifting weights and doing my pushups to
+              &apos;get jacked&apos;.{' '}
+            </p>
+            <p>
+              I&apos;ve always been althletic and ve always been very driven to
+              get better and improve myself and others around me.
+            </p>
+            <p>
               My wife and I got married when we were young. We became parents at
               24. I found myself not knowing what I wanted for a career so I
               ended up working a corporate job that drained the life out of me.
@@ -94,10 +107,10 @@ export default function About() {
               my career. Unsure of how to lead a family when I couldn’t even
               lead myself.
             </p>{' '}
-            <p>So I got to work - on my body, my mind, and my skills.</p>{' '}
+            <p>So I got back to work - on my body, my mind, and my skills.</p>{' '}
             <p>
-              I fell in love with building things. I dove headfirst into web
-              development, got certified, and eventually became a Senior
+              I fell back in love with building things. I dove headfirst into
+              web development, got certified, and eventually became a Senior
               Software Engineer. I went from feeling lost to building scalable
               systems that help businesses grow.
             </p>{' '}

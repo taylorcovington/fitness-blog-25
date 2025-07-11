@@ -7,10 +7,10 @@ export const metadata = {
   title: {
     template: '%s - Taylor Covington',
     default:
-      'Taylor Covington - Software designer, founder, and amateur astronaut',
+      'Taylor Covington - Father. Developer. Coach. Building a Better Future.',
   },
   description:
-    'I’m Spencer, a software designer and entrepreneur based in New York City. I’m the founder and CEO of Planetaria, where we develop technologies that empower regular people to explore space on their own terms.',
+    'I’m Taylor Covington — a Sr. Software Engineer and certified online fitness coach. I help high performers build scalable systems—both in business and in their bodies—so they can lead with energy, live on purpose, and create a legacy that lasts.',
   alternates: {
     types: {
       'application/rss+xml': `${process.env.NEXT_PUBLIC_SITE_URL}/feed.xml`,

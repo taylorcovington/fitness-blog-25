@@ -4,7 +4,7 @@ import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
 import { GitHubIcon, LinkedInIcon, XIcon } from '@/components/SocialIcons'
-import portraitImage from '@/images/avatar-new.jpeg'
+import portraitImage from '@/images/avatar.jpg'
 import signatureImage from '@/images/signature-cyan.png'
 
 function SocialLink({ className, href, children, icon: Icon }) {
@@ -54,108 +54,13 @@ export default function About() {
         </div>
         <div className="lg:order-first lg:row-span-2">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
-            My Story
+            About Me
           </h1>
           <div className="mt-6 space-y-2 text-base text-zinc-600 dark:text-zinc-400">
-            <p>
-              Ever since I was a child I loved to build. At the age of 13 I had
-              started a business mowing lawns, by 14 I was selling newspapers
-              door-to-door, and by 16 I was leading teams.
-            </p>
-            <p>
-              I was also very into lifting weights and doing my pushups to
-              &apos;get jacked&apos;.{' '}
-            </p>
-            <p>
-              I&apos;ve always been althletic and ve always been very driven to
-              get better and improve myself and others around me.
-            </p>
-            <p>
-              My wife and I got married when we were young. We became parents at
-              24. I found myself not knowing what I wanted for a career so I
-              ended up working a corporate job that drained the life out of me.
-            </p>{' '}
-            <p>
-              While tied to a cubicle and a phone as a stock trader, I started
-              asking hard questions:{' '}
-            </p>{' '}
-            <p>
-              <strong>
-                Is this really what life is supposed to feel like?
-              </strong>
-            </p>
-            <p>
-              <strong>
-                Is it normal to hate what I do for 40+ hours each week, away
-                from my family and the things I want to be doing?
-              </strong>
-            </p>
-            <p>
-              I started reading more books and writers that opened my mind:{' '}
-              <strong>Think and Grow Rich</strong>,{' '}
-              <strong>The 4-Hour Work Week</strong>, anything Dan Koe wrote -
-              taught me one thing: I didn’t have to settle. I could design a
-              life. I could build it.
-            </p>{' '}
-            <p>
-              Then life threw it&apos;s punch: I lost my mom when she was 46. I
-              was 27. That moment shattered the illusion of “someday.” There
-              were no more tomorrows to waste.
-            </p>{' '}
-            <p>
-              At the time I was 30 pounds overweight. Drifting. Uncertain about
-              my career. Unsure of how to lead a family when I couldn’t even
-              lead myself.
-            </p>{' '}
-            <p>So I got back to work - on my body, my mind, and my skills.</p>{' '}
-            <p>
-              I fell back in love with building things. I dove headfirst into
-              web development, got certified, and eventually became a Senior
-              Software Engineer. I went from feeling lost to building scalable
-              systems that help businesses grow.
-            </p>{' '}
-            <p>
-              My days no longer felt like a prison. I felt excited to get back
-              to the projects I was working on.{' '}
-            </p>
-            <p>
-              At the same time, I rebuilt my health. Lost the weight. Gained
-              over 20 pounds of muscle. I stopped chasing shortcuts and started
-              building systems that actually worked - ones built for people with
-              full lives, families, and real responsibilities.
-            </p>{' '}
-            <p>
-              Because health isn&apos;t just about aesthetics. It’s about
-              leadership. It’s about being the kind of man your kids can count
-              on. It’s about showing up for your wife with presence, not just
-              presence of mind - but energy, stability, and strength.
-            </p>{' '}
-            <p>
-              Today, I split my time between building software systems for
-              business, and helping high-performing professionals - CEOs,
-              entrepreneurs, and everyday parents - build bodies and habits
-              they’re proud of.
-            </p>{' '}
-            <p>
-              The businesses I work for don&apos;t want excuses - they want
-              systems built that will last their company years into the future.
-            </p>
-            <p>
-              My clients don’t want six-pack selfies. They want to live longer,
-              lead better, and feel fully alive.
-            </p>{' '}
-            <p>
-              That’s why I became a certified nutrition and fitness coach - to
-              give others the system I wish I had. One that fits into real life.
-              One that turns discipline into freedom. One that transforms more
-              than your body - it transforms your future.
-            </p>
-            <p>
-              At the end of the day - I&apos;m just a man trying to find his way
-              through this life the best I can, supporting those around me, and
-              sharing my journey.
-            </p>
-            <p>Thanks for being here.</p>
+            <p>I’m a husband and father of three wild, curious boys - being their dad is the most important and meaningful role I’ll ever have. 
+              Whether we’re building robots or going on backyard adventures, I live for those moments of connection and creativity with them. </p>
+              <p>Outside of family life, I’m a Senior Software Engineer with a passion for building things that scale—systems, businesses, and people. My go-to stack is React, Node, and PostgreSQL, and I’ve spent the past 5 years crafting everything from startup MVPs to enterprise-grade platforms.</p>
+            <p>What drives me isn’t just code - it’s leadership, purpose, and love. I care deeply about creating things that matter, guiding others along the way, and showing up with integrity in every part of life. Whether I’m mentoring a junior dev, leading a team, or showing my sons how to solve a problem with curiosity instead of frustration - I want the people around me to feel empowered, supported, and seen.</p>
             <Image src={signatureImage} alt="" />
           </div>
         </div>

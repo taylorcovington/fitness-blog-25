@@ -7,12 +7,16 @@ import { Card } from '@/components/Card'
 import { Container } from '@/components/Container'
 import { GitHubIcon, LinkedInIcon, XIcon } from '@/components/SocialIcons'
 import image1 from '@/images/photos/image-1.jpg'
-import image2 from '@/images/photos/image-2.jpg'
+import image2 from '@/images/photos/fathernson.jpeg'
 import image3 from '@/images/photos/image-3.jpg'
 import image4 from '@/images/photos/image-4.jpg'
 import image5 from '@/images/photos/image-5.jpg'
 import { getAllArticles } from '@/lib/articles'
 import { formatDate } from '@/lib/formatDate'
+
+import logoOCTanner from '@/images/logos/oc_tanner_logo.jpeg'
+import logoSymply from '@/images/logos/symply_logo.jpeg'
+import logoFidelity from '@/images/logos/fidelity_logo.jpeg'
 
 function MailIcon(props) {
   return (
@@ -164,59 +168,52 @@ function Role({ role }) {
   )
 }
 
-// function Resume() {
-//   let resume = [
-//     {
-//       company: 'Planetaria',
-//       title: 'CEO',
-//       logo: logoPlanetaria,
-//       start: '2019',
-//       end: {
-//         label: 'Present',
-//         dateTime: new Date().getFullYear().toString(),
-//       },
-//     },
-//     {
-//       company: 'Airbnb',
-//       title: 'Product Designer',
-//       logo: logoAirbnb,
-//       start: '2014',
-//       end: '2019',
-//     },
-//     {
-//       company: 'Facebook',
-//       title: 'iOS Software Engineer',
-//       logo: logoFacebook,
-//       start: '2011',
-//       end: '2014',
-//     },
-//     {
-//       company: 'Starbucks',
-//       title: 'Shift Supervisor',
-//       logo: logoStarbucks,
-//       start: '2008',
-//       end: '2011',
-//     },
-//   ]
+function Resume() {
+  let resume = [
+    {
+      company: 'O.C. Tanner',
+      title: 'Sr. Software Engineer',
+      logo: logoOCTanner,
+      start: '2022',
+      end: {
+        label: 'Present',
+        dateTime: new Date().getFullYear().toString(),
+      },
+    },
+    {
+      company: 'Symply',
+      title: 'Project Lead & Full-Stack Software Engineer',
+      logo: logoSymply,
+      start: '2021',
+      end: '2022',
+    },
+    {
+      company: 'Fidelity Investments',
+      title: 'Software Engeer',
+      logo: logoFidelity,
+      start: '2020',
+      end: '2021',
+    },
+  ]
 
-//   return (
-//     <div className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
-//       <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
-//         <BriefcaseIcon className="h-6 w-6 flex-none" />
-//         <span className="ml-3">Work</span>
-//       </h2>
-//       <ol className="mt-6 space-y-4">
-//         {resume.map((role, roleIndex) => (
-//           <Role key={roleIndex} role={role} />
-//         ))}
-//       </ol>
-//       <Button href="#" variant="secondary" className="group mt-6 w-full">
-//         Download CV
-//         <ArrowDownIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
-//       </Button>
-//     </div>
-//   )
-// }
+  return (
+    <div className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
+      <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
+        <BriefcaseIcon className="h-6 w-6 flex-none" />
+        <span className="ml-3">Work</span>
+      </h2>
+      <ol className="mt-6 space-y-4">
+        {resume.map((role, roleIndex) => (
+          <Role key={roleIndex} role={role} />
+        ))}
+      </ol>
+      {/* <Button href="#" variant="secondary" className="group mt-6 w-full">
+        Download CV
+        <ArrowDownIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
+      </Button> */}
+    </div>
+  )
+}
 
 function Photos() {
   let rotations = ['rotate-2', '-rotate-2', 'rotate-2', 'rotate-2', '-rotate-2']
@@ -296,7 +293,7 @@ export default async function Home() {
           </div>
           <div className="space-y-10 lg:pl-16 xl:pl-24">
             <Newsletter />
-            {/* <Resume /> */}
+            <Resume />
           </div>
         </div>
       </Container>

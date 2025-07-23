@@ -61,7 +61,10 @@ export default function About() {
               Whether we’re building robots or going on backyard adventures, I live for those moments of connection and creativity with them. </p>
               <p>Outside of family life, I’m a Senior Software Engineer with a passion for building things that scale—systems, businesses, and people. My go-to stack is React, Node, and PostgreSQL, and I’ve spent the past 5 years crafting everything from startup MVPs to enterprise-grade platforms.</p>
             <p>What drives me isn’t just code - it’s leadership, purpose, and love. I care deeply about creating things that matter, guiding others along the way, and showing up with integrity in every part of life. Whether I’m mentoring a junior dev, leading a team, or showing my sons how to solve a problem with curiosity instead of frustration - I want the people around me to feel empowered, supported, and seen.</p>
-            <Image src={signatureImage} alt="" />
+            
+            <div class="w-sm">
+              <Image src={signatureImage} alt=""  />
+            </div>
           </div>
         </div>
         <div className="lg:pl-20">

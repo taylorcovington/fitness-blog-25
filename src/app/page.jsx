@@ -168,52 +168,52 @@ function Role({ role }) {
   )
 }
 
-function Resume() {
-  let resume = [
-    {
-      company: 'O.C. Tanner',
-      title: 'Sr. Software Engineer',
-      logo: logoOCTanner,
-      start: '2022',
-      end: {
-        label: 'Present',
-        dateTime: new Date().getFullYear().toString(),
-      },
-    },
-    {
-      company: 'Symply',
-      title: 'Project Lead & Full-Stack Software Engineer',
-      logo: logoSymply,
-      start: '2021',
-      end: '2022',
-    },
-    {
-      company: 'Fidelity Investments',
-      title: 'Software Engeer',
-      logo: logoFidelity,
-      start: '2020',
-      end: '2021',
-    },
-  ]
+// function Resume() {
+//   let resume = [
+//     {
+//       company: 'O.C. Tanner',
+//       title: 'Sr. Software Engineer',
+//       logo: logoOCTanner,
+//       start: '2022',
+//       end: {
+//         label: 'Present',
+//         dateTime: new Date().getFullYear().toString(),
+//       },
+//     },
+//     {
+//       company: 'Symply',
+//       title: 'Project Lead & Full-Stack Software Engineer',
+//       logo: logoSymply,
+//       start: '2021',
+//       end: '2022',
+//     },
+//     {
+//       company: 'Fidelity Investments',
+//       title: 'Software Engeer',
+//       logo: logoFidelity,
+//       start: '2020',
+//       end: '2021',
+//     },
+//   ]
 
-  return (
-    <div className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
-      <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
-        <BriefcaseIcon className="h-6 w-6 flex-none" />
-        <span className="ml-3">Work</span>
-      </h2>
-      <ol className="mt-6 space-y-4">
-        {resume.map((role, roleIndex) => (
-          <Role key={roleIndex} role={role} />
-        ))}
-      </ol>
-      {/* <Button href="#" variant="secondary" className="group mt-6 w-full">
-        Download CV
-        <ArrowDownIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
-      </Button> */}
-    </div>
-  )
-}
+//   return (
+//     <div className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
+//       <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
+//         <BriefcaseIcon className="h-6 w-6 flex-none" />
+//         <span className="ml-3">Work</span>
+//       </h2>
+//       <ol className="mt-6 space-y-4">
+//         {resume.map((role, roleIndex) => (
+//           <Role key={roleIndex} role={role} />
+//         ))}
+//       </ol>
+//       {/* <Button href="#" variant="secondary" className="group mt-6 w-full">
+//         Download CV
+//         <ArrowDownIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
+//       </Button> */}
+//     </div>
+//   )
+// }
 
 function Photos() {
   let rotations = ['rotate-2', '-rotate-2', 'rotate-2', 'rotate-2', '-rotate-2']
@@ -249,14 +249,24 @@ export default async function Home() {
     <>
       <Container className="mt-9">
         <div className="max-w-2xl">
-          <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
-            Father. Developer. Coach. Building a Better Future.
+         <div
+          className='flex gap-4'
+         >
+           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
+            Father.
           </h1>
+           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
+            Coach.
+          </h1>
+           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
+            Leader.
+          </h1>
+         </div>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I’m Taylor Covington — a Sr. Software Engineer and certified online
-            fitness coach. I help high performers build scalable systems—both in
-            business and in their bodies—so they can lead with energy, live on
-            purpose, and create a legacy that lasts.
+            I’m Taylor Covington, Fitness and Nutrition Coach at Elite Performance — a coaching platform for high performers, entrepreneurs, and leaders.
+          </p>
+          <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
+            We help driven individuals optimize their body, mind, and habits so they can lead with energy, live with discipline, and perform at their highest level—at home, at work, and in life.
           </p>
 
           <div className="mt-6 flex gap-6">
@@ -270,13 +280,9 @@ export default async function Home() {
               aria-label="Follow on Instagram"
               icon={InstagramIcon}
             /> */}
+          
             <SocialLink
-              href="https://github.com/taylorcovington"
-              aria-label="Follow on GitHub"
-              icon={GitHubIcon}
-            />
-            <SocialLink
-              href="https://www.linkedin.com/in/taylorjcovington/"
+              href="www.linkedin.com/in/taylor-covington-fitness"
               aria-label="Follow on LinkedIn"
               icon={LinkedInIcon}
             />
@@ -293,7 +299,7 @@ export default async function Home() {
           </div>
           <div className="space-y-10 lg:pl-16 xl:pl-24">
             <Newsletter />
-            <Resume />
+            {/* <Resume /> */}
           </div>
         </div>
       </Container>

@@ -7,10 +7,10 @@ export const metadata = {
   title: {
     template: '%s - Taylor Covington',
     default:
-      'Taylor Covington - Father. Developer. Coach. Building a Better Future.',
+      'Taylor Covington - Father. Coach. Builder of High Performers.',
   },
   description:
-    'I’m Taylor Covington — a Sr. Software Engineer and certified online fitness coach. I help high performers build scalable systems—both in business and in their bodies—so they can lead with energy, live on purpose, and create a legacy that lasts.',
+    'Coaching high performers to master their fitness, lead with energy, and live on purpose.',
   alternates: {
     types: {
       'application/rss+xml': `${process.env.NEXT_PUBLIC_SITE_URL}/feed.xml`,

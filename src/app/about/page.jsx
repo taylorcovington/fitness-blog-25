@@ -57,11 +57,9 @@ export default function About() {
             About Me
           </h1>
           <div className="mt-6 space-y-2 text-base text-zinc-600 dark:text-zinc-400">
-            <p>I’m a husband and father of three wild, curious boys - being their dad is the most important and meaningful role I’ll ever have. 
-              Whether we’re building robots or going on backyard adventures, I live for those moments of connection and creativity with them. </p>
-              <p>Outside of family life, I’m a Senior Software Engineer with a passion for building things that scale—systems, businesses, and people. My go-to stack is React, Node, and PostgreSQL, and I’ve spent the past 5 years crafting everything from startup MVPs to enterprise-grade platforms.</p>
-            <p>What drives me isn’t just code - it’s leadership, purpose, and love. I care deeply about creating things that matter, guiding others along the way, and showing up with integrity in every part of life. Whether I’m mentoring a junior dev, leading a team, or showing my sons how to solve a problem with curiosity instead of frustration - I want the people around me to feel empowered, supported, and seen.</p>
+            <p>I’m Taylor Covington—husband, father of three boys, and Head Coach at Elite Performance. My life is built around a few core pillars: family, leadership, and high performance. Whether I’m building robots with my kids or building better humans through fitness, I believe in showing up with purpose. I’ve spent over a decade in the tech world as a web developer, and I bring that same systems-first mindset into my coaching—helping high performers create bodies that match the life they’re building.</p>
             
+            <p>Fitness is my full-time mission—and it’s how I lead. I’ve coached entrepreneurs, CEOs, and everyday high achievers to cut through the noise, simplify their routines, and take back control of their energy, physique, and confidence. My approach blends strategy, accountability, and real-life flexibility because I know exactly what it’s like to balance a demanding career, a growing family, and the pressure to perform. At the end of the day, it’s not about perfection—it’s about building a life you’re proud of, from the inside out.</p>            
             <div class="w-sm">
               <Image src={signatureImage} alt=""  />
             </div>
@@ -76,25 +74,18 @@ export default function About() {
               Follow on Instagram
             </SocialLink> */}
             <SocialLink
-              href="https://github.com/taylorcovington"
-              icon={GitHubIcon}
-              className="mt-4"
-            >
-              Follow on GitHub
-            </SocialLink>
-            <SocialLink
-              href="https://www.linkedin.com/in/taylorjcovington/"
+              href="www.linkedin.com/in/taylor-covington-fitness"
               icon={LinkedInIcon}
               className="mt-4"
             >
               Follow on LinkedIn
             </SocialLink>
             <SocialLink
-              href="mailto:me@taylorcovington.co"
+              href="mailto:me@taylorcovingtonfitness.com"
               icon={MailIcon}
               className="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40"
             >
-              me@taylorcovington.co
+              me@taylorcovingtonfitness.com
             </SocialLink>
           </ul>
         </div>

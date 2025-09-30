@@ -16,5 +16,14 @@ export async function getAllArticles() {
 
   let articles = await Promise.all(articleFilenames.map(importArticle))
 
-  return articles.sort((a, z) => +new Date(z.date) - +new Date(a.date))
+  // pinned articles should appear first, then sort by date desc
+  return articles.sort((a, z) => {
+    // Treat missing pinned as false
+    const aPinned = a.pinned ? 1 : 0
+    const zPinned = z.pinned ? 1 : 0
+
+    if (aPinned !== zPinned) return zPinned - aPinned
+
+    return +new Date(z.date) - +new Date(a.date)
+  })
 }
